@@ -18,7 +18,7 @@ interface Props {
 const ProjectCard = ({ project }: Props) => {
   return (
     <Link to={`/portfolio/${project.id}`}>
-      <div className="max-w-sm  bg-white rounded-lg  shadow-md dark:bg-gray-800 hover:scale-105 duration-300  overflow-hidden transition ease-in-out delay-50 ">
+      <div className="max-w-sm  bg-zinc-50 rounded-lg  shadow-md dark:bg-gray-800 hover:scale-105 duration-300  overflow-hidden transition ease-in-out delay-50 ">
         <div className="h-56">
           <img
             className="rounded-t-lg w-full h-full object-contain"
