@@ -15,7 +15,7 @@ import ReactTooltip from "react-tooltip";
 
 const TechsList = () => {
   return (
-    <div className="min-w-[360px] md:w-1/4 my-8 ">
+    <div className="min-w-[360px] md:w-1/4 my-8">
       <p className="text-center tracking-normal text-3xl font-normal text-[#4eff95]">
         Main Techs
       </p>
