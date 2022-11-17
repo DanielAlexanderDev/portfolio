@@ -13,7 +13,7 @@ module.exports = {
             transform: "translateY(0)",
           },
           "100%": {
-            transform: "translateY(-485%)",
+            transform: "translateY(-410%)",
           },
         },
         scrolledH: {
@@ -26,7 +26,7 @@ module.exports = {
         },
         "fade-in": {
           from: {
-            filter: "blur(5px)",
+            filter: "blur(4px)",
             opacity: "0",
           },
           to: {
@@ -34,11 +34,24 @@ module.exports = {
             opacity: "1",
           },
         },
+        "from-top": {
+          from: {
+            opacity: "0",
+            transform: "translateY(-100%)",
+          },
+          to: {
+            opacity: "1",
+            transform: "translateY(0)",
+          },
+        },
       },
       animation: {
-        "vertical-scroll": "scrolledV 12s linear infinite",
+        "vertical-scroll": "scrolledV 10s linear infinite",
         "horizontal-scroll": "scrolledH 12s linear infinite",
         "fade-in": "fade-in 2s ease",
+        "from-top-200": "from-top 1s ease 200ms",
+        "from-top-400": "from-top 1s ease 300ms",
+        "from-top-600": "from-top 1s ease 200ms",
       },
     },
   },

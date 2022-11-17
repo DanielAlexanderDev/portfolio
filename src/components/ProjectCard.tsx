@@ -1,15 +1,6 @@
 import Tag from "./Tag";
-import SvgComponent from "./GithubSVG";
 import { Link } from "react-router-dom";
-
-export interface Project {
-  id: number;
-  url: string;
-  image: string;
-  title: string;
-  description: string;
-  tags: string[];
-}
+import { Project } from "../types/types";
 
 interface Props {
   project: Project;

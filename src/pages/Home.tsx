@@ -7,11 +7,11 @@ import CV from "../Daniel-Llumiquinga-CV.pdf";
 const Home = () => {
   return (
     <main className="dark:bg-gradient-to-r from-zinc-900 via-black to-zinc-900 bg-white dark:text-white">
-      <div className={`flex flex-col items-center `}>
+      <div className={`flex flex-col items-center animate-fade-in`}>
         <Hero />
         <div className="flex flex-col md:flex-row md:justify-evenly w-full flex-wrap items-center justify-center gap-x-3">
           <div className=" flex justify-center items-center min-w-[350px] w-1/4 my-8 ">
-            <ul className="dark:text-white text-center font-light text-2xl ">
+            <ul className="dark:text-white text-center font-light text-2xl md:animate-from-top-200">
               <li>
                 <p>Junior Web Developer</p>
               </li>
@@ -23,12 +23,12 @@ const Home = () => {
               </li>
             </ul>
           </div>
-          <div className="w-1/4 min-w-[350px] my-8 flex flex-col items-center">
+          <div className="w-1/4 min-w-[350px] my-8 flex flex-col items-center md:animate-from-top-400">
             <q className="italic text-xl">Learning, growing and solving</q>
           </div>
           <TechList />
         </div>
-        <button className="bg-[#FEFBE8] rounded-md text-black py-2 px-3 mb-5">
+        <button className="bg-[#FEFBE8] rounded-md text-black py-2 px-3 mb-5 animate-fade-in transition duration-700  hover:bg-slate-800 hover:text-[#FEFBE8]">
           Download CV
         </button>
 

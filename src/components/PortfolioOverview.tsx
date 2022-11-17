@@ -16,7 +16,7 @@ const PortfolioOverview = () => {
           information of each project. Hope you find it usefull :)
         </p>
         <Link className="mt-14" to={"/portfolio"}>
-          <button className="hover:bg-[#e7e1c2] py-2 px-3 rounded-md mt-8 bg-[#dad6c5]  ">
+          <button className="hover:bg-[#e7e1c2] py-2 px-3 rounded-md mt-8 bg-[#dad6c5] transition duration-500 hover:scale-105 ">
             View Full Portfolio
           </button>
         </Link>

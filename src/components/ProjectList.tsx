@@ -1,6 +1,5 @@
 import data from "../portfolio.json";
 import ProjectCard from "./ProjectCard";
-import { Project } from "./ProjectCard";
 
 const ProjectList = () => {
   return (
