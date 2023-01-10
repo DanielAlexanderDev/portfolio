@@ -1,9 +1,8 @@
-import { useState } from "react";
 import { NavLink } from "react-router-dom";
 
 const Header = () => {
   return (
-    <header className="flex flex-col md:flex-row lg:flex-row gap-y-4 bg-gray-50 justify-around items-center p-3 dark:bg-neutral-900 ">
+    <header className=" fixed w-screen flex flex-col md:flex-row lg:flex-row gap-y-4 justify-around items-center p-3 bg-neutral-900/90 z-10">
       <NavLink to={"/"}>
         <h1 className=" text-3xl dark:text-white  tracking-tighter">
           DANIEL ALEXANDER
