@@ -9,6 +9,8 @@ type Tags =
 
 export interface Project {
   id: number;
+  repoUrl: string;
+  deployUrl: string;
   url: string;
   image: string;
   title: string;
