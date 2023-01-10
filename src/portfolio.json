@@ -2,32 +2,45 @@
   "repos": [
     {
       "id": 1,
-      "url": "",
-      "image": "src/assets/mern-app.png",
+      "repoUrl": "https://github.com/DanielAlexanderDev/posts-mern-stack-app",
+      "deployUrl": "",
+      "image": "/mern-app.png",
       "title": "MERN Stack App",
-      "description": "Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum.",
+      "description": "Full Stack App ",
       "tags": ["react", "javascript", "tailwind", "node"]
     },
     {
       "id": 2,
-      "url": "",
-      "image": "src/assets/weather.png",
+      "repoUrl": "https://github.com/DanielAlexanderDev/react-weather-forecast-app",
+      "deployUrl": "https://danielalexanderdev.github.io/react-weather-forecast-app/",
+      "image": "/weather.png",
       "title": "Global Weather App",
       "description": "Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum.",
       "tags": ["react", "javascript", "styled-components"]
     },
     {
       "id": 3,
-      "url": "",
-      "image": "src/assets/tic-tac-toe.png",
+      "repoUrl": "https://github.com/DanielAlexanderDev/tic-tac-toe",
+      "deployUrl": "https://danielalexanderdev.github.io/tic-tac-toe/",
+      "image": "/tic-tac-toe.png",
       "title": "Vanilla JS TikTakToe",
       "description": "Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum.",
       "tags": ["javascript", "css"]
     },
     {
       "id": 4,
-      "url": "",
-      "image": "src/assets/ecommerce.png",
+      "repoUrl": "",
+      "deployUrl": "",
+      "image": "/ecommerce.png",
+      "title": "React E-commerce",
+      "description": "Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum.",
+      "tags": ["react", "javascript", "styled-components"]
+    },
+    {
+      "id": 5,
+      "repoUrl": "https://github.com/DanielAlexanderDev/react-ecommerce",
+      "deployUrl": "https://danielalexanderdev.github.io/react-ecommerce/",
+      "image": "/ecommerce.png",
       "title": "React E-commerce",
       "description": "Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum.",
       "tags": ["react", "javascript", "styled-components"]
